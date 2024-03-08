@@ -98,3 +98,6 @@ while True:
         lib.change_language()
     elif choice == "5":
         lib.all_remove_book()
+    elif choice == "q":
+        print("Exiting..." if language == "1" else "Çıkılıyor...")
+        break
